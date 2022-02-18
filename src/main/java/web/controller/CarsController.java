@@ -21,7 +21,7 @@ public class CarsController {
         cars.add(new Car("Volkswagen", "Passat", 2002));
         cars.add(new Car("Mitsubishi", "Pajero", 2008));
         cars.add(new Car("Toyota", "Prado", 1986));
-        cars.add(new Car("Audi", "A6",2020));
+        cars.add(new Car("Audi", "A6", 2020));
 
         List<Car> countedCars = carService.getCarList(count, cars);
 
